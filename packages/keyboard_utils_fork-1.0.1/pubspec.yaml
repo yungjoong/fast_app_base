@@ -1,0 +1,25 @@
+name: keyboard_utils_fork
+description: fork from https://github.com/IsaiasSantana/keyboard_utils
+version: 1.0.1
+homepage: https://github.com/hello-coder-xu/keyboard_utils.git
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: br.com.keyboard_utils
+        pluginClass: KeyboardUtilsPlugin
+      ios:
+        pluginClass: SwiftKeyboardUtilsPlugin

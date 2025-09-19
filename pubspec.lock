@@ -525,10 +525,9 @@ packages:
   isar_flutter_libs:
     dependency: "direct main"
     description:
-      name: isar_flutter_libs
-      sha256: bc6768cc4b9c61aabff77152e7f33b4b17d2fc93134f7af1c3dd51500fe8d5e8
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/isar_flutter_libs-3.1.0+1"
+      relative: true
+    source: path
     version: "3.1.0+1"
   isar_generator:
     dependency: "direct dev"
@@ -565,10 +564,9 @@ packages:
   keyboard_utils_fork:
     dependency: "direct main"
     description:
-      name: keyboard_utils_fork
-      sha256: ed75805d7d851ea09367166020e3a2b4132e559421321be0aeedf64fbb483968
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/keyboard_utils_fork-1.0.1"
+      relative: true
+    source: path
     version: "1.0.1"
   leak_tracker:
     dependency: transitive
@@ -1138,10 +1136,9 @@ packages:
   velocity_x:
     dependency: "direct main"
     description:
-      name: velocity_x
-      sha256: "99b910c80cc2010b184ef921f0af6894a8d632e13169cf77e6f6cb5a7f310698"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/velocity_x-4.2.1"
+      relative: true
+    source: path
     version: "4.2.1"
   vm_service:
     dependency: transitive

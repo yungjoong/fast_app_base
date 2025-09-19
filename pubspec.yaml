@@ -40,12 +40,14 @@ dependencies:
   equatable: ^2.0.5
 
   #util
-  velocity_x: ^4.1.2
+  velocity_x:
+    path: ./packages/velocity_x-4.2.1
 
   #data
   shared_preferences: ^2.0.15
   isar: ^3.1.0+1
-  isar_flutter_libs: ^3.1.0+1
+  isar_flutter_libs:
+    path: ./packages/isar_flutter_libs-3.1.0+1
 
   #architecture
   event_bus: ^2.0.0
@@ -65,7 +67,8 @@ dependencies:
   cached_network_image: ^3.2.3
 
   #ui - util
-  keyboard_utils_fork: ^1.0.1
+  keyboard_utils_fork:
+    path: ./packages/keyboard_utils_fork-1.0.1
 
   #network
   dio: ^5.0.0

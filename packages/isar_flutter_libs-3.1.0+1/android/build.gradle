@@ -1,0 +1,36 @@
+group 'dev.isar.isar_flutter_libs'
+version '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+    }
+}
+
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.example.isar_flutter_libs' // 임의로 패키지 이름 지정, 실제 패키지명 확인 가능
+    compileSdk 35
+
+    defaultConfig {
+        minSdk 21
+        targetSdk 35
+    }
+}
+
+dependencies {
+    implementation "androidx.startup:startup-runtime:1.1.1"
+}
