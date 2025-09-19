@@ -230,6 +230,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.2"
+  cupertino_icons:
+    dependency: transitive
+    description:
+      name: cupertino_icons
+      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
   dart_pubspec_licenses:
     dependency: transitive
     description:
@@ -561,6 +569,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.8.0"
+  keyboard_utils_example:
+    dependency: "direct main"
+    description:
+      path: "packages/keyboard_utils_fork-1.0.1/example"
+      relative: true
+    source: path
+    version: "0.0.1+0.0.1"
   keyboard_utils_fork:
     dependency: "direct main"
     description:

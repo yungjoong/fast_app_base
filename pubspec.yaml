@@ -70,6 +70,9 @@ dependencies:
   keyboard_utils_fork:
     path: ./packages/keyboard_utils_fork-1.0.1
 
+  keyboard_utils_example:
+    path: ./packages/keyboard_utils_fork-1.0.1/example
+
   #network
   dio: ^5.0.0
   retrofit: ^4.0.1

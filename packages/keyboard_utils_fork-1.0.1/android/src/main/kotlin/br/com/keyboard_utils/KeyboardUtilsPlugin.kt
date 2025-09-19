@@ -21,7 +21,6 @@ import android.view.Display
 import android.view.View
 import android.view.ViewTreeObserver
 import android.view.Window
-import android.src.main.kotlin.br.com.keyboard_utils.utils.Utils;
 
 class KeyboardUtilsPlugin : FlutterPlugin, ActivityAware, EventChannel.StreamHandler {
     private var keyboardUtil: KeyboardNewUtils? = null
@@ -53,17 +52,7 @@ class KeyboardUtilsPlugin : FlutterPlugin, ActivityAware, EventChannel.StreamHan
         keyboardUtil = null
     }
 
-    companion object {
-        @JvmStatic
-        fun registerWith(registrar: PluginRegistry.Registrar) {
-            if (registrar.activity() == null) {
-                return
-            }
-
-            val keyboardUtilsPlugin = KeyboardUtilsPlugin()
-            keyboardUtilsPlugin.setup(registrar.activity(), registrar.messenger())
-        }
-    }
+    // No companion registerWith: plugin uses the v2 embedding (FlutterPlugin + ActivityAware).
 
     override fun onAttachedToEngine(binding: FlutterPlugin.FlutterPluginBinding) {
         this.flutterPluginBinding = binding
